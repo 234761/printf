@@ -40,12 +40,12 @@ The function will return the number of characters printed. If unsuccessful the f
 .SH EXAMPLES
 To print "Today is Tuesday" you would do as follow, where day is a pointer to a string:
 
- #include "main.h"
+ #include "Main.h"
  _printf("Today is %s", day);
 
 To print "It is 1" you would do as follows, where time is a pointer to a integer:
 
-#include "main.h"
+#include "Main.h"
  _printf("It is %d", time);
 
 .SH AUTHOR
